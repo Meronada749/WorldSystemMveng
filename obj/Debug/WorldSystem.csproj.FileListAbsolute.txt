@@ -1,0 +1,7 @@
+C:\Users\pk65rtq\Desktop\WorldSystem\bin\Debug\WorldSystem.exe.config
+C:\Users\pk65rtq\Desktop\WorldSystem\bin\Debug\WorldSystem.exe
+C:\Users\pk65rtq\Desktop\WorldSystem\bin\Debug\WorldSystem.pdb
+C:\Users\pk65rtq\Desktop\WorldSystem\obj\Debug\WorldSystem.csproj.AssemblyReference.cache
+C:\Users\pk65rtq\Desktop\WorldSystem\obj\Debug\WorldSystem.csproj.CoreCompileInputs.cache
+C:\Users\pk65rtq\Desktop\WorldSystem\obj\Debug\WorldSystem.exe
+C:\Users\pk65rtq\Desktop\WorldSystem\obj\Debug\WorldSystem.pdb
