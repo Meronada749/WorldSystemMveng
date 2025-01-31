@@ -4,7 +4,6 @@ Auteur : Christopher Ristic
 Date : 24.01.2025
 Description : Liste de catégories possible pour les objets
 */
-
 namespace InventorySystem
 {
     internal enum Category
@@ -12,6 +11,5 @@ namespace InventorySystem
         Sword,
         Resource,
         Shield
-
     }
 }

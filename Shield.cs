@@ -1,24 +1,25 @@
-﻿using InventorySystem;
-using System;
-using static System.Net.Mime.MediaTypeNames;
-/*
+﻿/*
 Entreprise : ETML
 Auteur : Meron Essayas
 Date : 24.01.2025
 Description : 
 */
+
+using System;
+
 namespace WorldSystem
 {
     internal class Shield : IShield
     {
         //Properties
         public string Name { get; private set; }
-        public Category Category { get; private set; }
+        public InventorySystem.Category Category { get; private set; }
         public int Price {  get; private set; }
         public int Quantity { get; private set; }
         public int Protection { get; private set; }
         public Resource Resource { get; private set; }
-        public Rarity Rarity { get; private set; }
+        public InventorySystem.Rarity Rarity { get; private set; }
+        public Material Material { get; private set; }
 
         /// <summary>
         /// Custom Constructor
@@ -28,7 +29,7 @@ namespace WorldSystem
         /// <param name="Price">prix de l'objet</param>
         /// <param name="Quantity">quantite de l'objet</param>
         /// 
-        public Shield(string Name, Category Category, int Price, int Quantity, int Protection, Resource Resource, Rarity Rarity) 
+        public Shield(string Name, InventorySystem.Category Category, int Price, int Quantity, int Protection, Resource Resource, InventorySystem.Rarity Rarity) 
         {
             this.Name = Name;
             this.Category = Category;

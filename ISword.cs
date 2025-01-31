@@ -1,19 +1,16 @@
-﻿using InventorySystem;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿/*
+Entreprise : ETML
+Auteur : Meron Essayas
+Date : 24.01.2025
+Description : 
+*/
 namespace WorldSystem
 {
-    internal interface ISword : IItem
+    internal interface ISword : InventorySystem.IItem
     {
         int Damage { get; }
 
         Resource Resource { get; }
-
-        Rarity Rarity { get; }
 
     }
 }
