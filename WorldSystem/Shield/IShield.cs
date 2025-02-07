@@ -7,11 +7,10 @@ Description : Interface pour tous les objets
 */
 namespace WorldSystem
 {
-    internal interface IShield : InventorySystem.IItem
+    internal interface IShield : IItem
     {
 
         int Protection { get; }
-
         Resource Resource { get; }
 
 

@@ -43,20 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Category.cs" />
-    <Compile Include="IItem.cs" />
-    <Compile Include="IResource.cs" />
-    <Compile Include="IShield.cs" />
-    <Compile Include="ISword.cs" />
-    <Compile Include="Material.cs" />
-    <Compile Include="Rarity.cs" />
-    <Compile Include="Resource.cs" />
-    <Compile Include="Shield.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="WorldSystem\enum\Category.cs" />
+    <Compile Include="WorldSystem\IItem.cs" />
+    <Compile Include="WorldSystem\Resource\IResource.cs" />
+    <Compile Include="WorldSystem\Shield\IShield.cs" />
+    <Compile Include="WorldSystem\Sword\ISword.cs" />
+    <Compile Include="WorldSystem\enum\MaterialWithPrice.cs" />
+    <Compile Include="WorldSystem\enum\MaterialWithWeight.cs" />
+    <Compile Include="WorldSystem\enum\Rarity.cs" />
+    <Compile Include="WorldSystem\Resource\Resource.cs" />
+    <Compile Include="WorldSystem\Shield\Shield.cs" />
+    <Compile Include="WorldSystem\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShieldName.cs" />
-    <Compile Include="Sword.cs" />
-    <Compile Include="SwordName.cs" />
+    <Compile Include="WorldSystem\Shield\ShieldName.cs" />
+    <Compile Include="WorldSystem\Sword\Sword.cs" />
+    <Compile Include="WorldSystem\Sword\SwordName.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -6,64 +6,56 @@ Description :
 */
 
 using System;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace WorldSystem
 {
     internal class Sword : ISword
     {
-
-        public SwordName SwordName { get; private set; }
-        public InventorySystem.Category Category { get; } = InventorySystem.Category.Sword; 
-        public int Price { get; private set; }
+        public Rarity Rarity { get; private set; }
+        public Category Category { get; private set; } = Category.Sword;
+        public int SwordPrice { get; private set; }
         public int Quantity { get; private set; }
         public int Damage { get; private set; }
         public Resource Resource { get; private set; }
-        public InventorySystem.Rarity Rarity { get; private set; }
-        public Material Material { get; private set; }
+        public SwordName SwordName { get; private set; }
 
-
-        /// <summary>
-        /// Custom Constructor
-        /// </summary>
-        /// <param name="Name">nom de l'objet</param>
-        /// <param name="Category">categorie de l'objet</param>
-        /// <param name="Price">prix de l'objet</param>
-        /// <param name="Quantity">quantite de l'objet</param>
-        public Sword(int Quantity, int Damage, Resource Resource, InventorySystem.Rarity Rarity)
+        public Sword(int Quantity, Resource Resource, Rarity Rarity)
         {
             SwordName = GetRandomSwordName();
             this.Quantity = Quantity;
-            this.Damage = Damage;
             this.Resource = Resource;
             this.Rarity = Rarity;
             switch (SwordName)
             {
                 case SwordName.The_Sword_of_a_Thousand_Truths:
-                    Price = 10000;
+                    SwordPrice = 10000;
+                    Damage = 1;
                     break;
                 case SwordName.Ashbringer:
-                    Price = 1000;
+                    SwordPrice = 1000;
+                    Damage = 2;
                     break;
                 case SwordName.Excalibur:
-                    Price = 8000;
+                    SwordPrice = 8000;
+                    Damage = 3;
                     break;
                 case SwordName.The_Zulqifar:
-                    Price = 7000;
+                    SwordPrice = 7000;
+                    Damage = 5;
                     break;
                 case SwordName.Warglaives_of_Azzinoth:
-                    Price = 5000;
+                    SwordPrice = 5000;
+                    Damage = 6;
                     break;
                 default:
                     break;
             }
         }
 
-        /// <summary>
-        /// Display the sword
-        /// </summary>
         public void DisplaySword()
         {
-            Console.WriteLine($"The {Category} is called {SwordName} and it can deal {Damage} damage. It is {Rarity} rarity. It is made of {Resource.Material} and it costs {Price} coins.\n");
+            Console.WriteLine($"The {Category}'s name is {SwordName}, damage is {Damage}. It is {Rarity}, made of {Resource.MaterialWithWeight}, it costs {SwordPrice}.\n");
         }
 
         public SwordName GetRandomSwordName()
@@ -71,6 +63,10 @@ namespace WorldSystem
             Random random = new Random();
             Array swordNames = Enum.GetValues(typeof(SwordName));
             return (SwordName)swordNames.GetValue(random.Next(swordNames.Length));
+        }
+        public string ToCsvLine()
+        {
+            return $"{Category},{Resource},{Quantity}";
         }
     }
 }

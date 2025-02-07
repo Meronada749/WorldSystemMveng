@@ -6,7 +6,7 @@ Description :
 */
 namespace WorldSystem
 {
-    internal interface ISword : InventorySystem.IItem
+    internal interface ISword : IItem
     {
         int Damage { get; }
 

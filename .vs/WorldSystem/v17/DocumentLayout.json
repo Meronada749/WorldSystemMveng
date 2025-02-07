@@ -1,36 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\pk65rtq\\Desktop\\WorldSystem\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{C2AFB0EA-053E-4554-BA47-2D660639DAC0}|WorldSystem.csproj|c:\\users\\pk65rtq\\desktop\\worldsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2AFB0EA-053E-4554-BA47-2D660639DAC0}|WorldSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2AFB0EA-053E-4554-BA47-2D660639DAC0}|WorldSystem.csproj|c:\\users\\pk65rtq\\desktop\\worldsystem\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2AFB0EA-053E-4554-BA47-2D660639DAC0}|WorldSystem.csproj|solutionrelative:sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2AFB0EA-053E-4554-BA47-2D660639DAC0}|WorldSystem.csproj|c:\\users\\pk65rtq\\desktop\\worldsystem\\swordname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2AFB0EA-053E-4554-BA47-2D660639DAC0}|WorldSystem.csproj|solutionrelative:swordname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2AFB0EA-053E-4554-BA47-2D660639DAC0}|WorldSystem.csproj|c:\\users\\pk65rtq\\desktop\\worldsystem\\shieldname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2AFB0EA-053E-4554-BA47-2D660639DAC0}|WorldSystem.csproj|solutionrelative:shieldname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2AFB0EA-053E-4554-BA47-2D660639DAC0}|WorldSystem.csproj|c:\\users\\pk65rtq\\desktop\\worldsystem\\shield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2AFB0EA-053E-4554-BA47-2D660639DAC0}|WorldSystem.csproj|solutionrelative:shield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2AFB0EA-053E-4554-BA47-2D660639DAC0}|WorldSystem.csproj|c:\\users\\pk65rtq\\desktop\\worldsystem\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2AFB0EA-053E-4554-BA47-2D660639DAC0}|WorldSystem.csproj|solutionrelative:resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2AFB0EA-053E-4554-BA47-2D660639DAC0}|WorldSystem.csproj|c:\\users\\pk65rtq\\desktop\\worldsystem\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2AFB0EA-053E-4554-BA47-2D660639DAC0}|WorldSystem.csproj|solutionrelative:material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -38,100 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pk65rtq\\Desktop\\WorldSystem\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\pk65rtq\\Desktop\\WorldSystem\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T13:32:26.052Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Resource.cs",
-              "DocumentMoniker": "C:\\Users\\pk65rtq\\Desktop\\WorldSystem\\Resource.cs",
-              "RelativeDocumentMoniker": "Resource.cs",
-              "ToolTip": "C:\\Users\\pk65rtq\\Desktop\\WorldSystem\\Resource.cs",
-              "RelativeToolTip": "Resource.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T09:31:36.318Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShieldName.cs",
-              "DocumentMoniker": "C:\\Users\\pk65rtq\\Desktop\\WorldSystem\\ShieldName.cs",
-              "RelativeDocumentMoniker": "ShieldName.cs",
-              "ToolTip": "C:\\Users\\pk65rtq\\Desktop\\WorldSystem\\ShieldName.cs",
-              "RelativeToolTip": "ShieldName.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T10:06:19.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SwordName.cs",
-              "DocumentMoniker": "C:\\Users\\pk65rtq\\Desktop\\WorldSystem\\SwordName.cs",
-              "RelativeDocumentMoniker": "SwordName.cs",
-              "ToolTip": "C:\\Users\\pk65rtq\\Desktop\\WorldSystem\\SwordName.cs",
-              "RelativeToolTip": "SwordName.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T09:58:35.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Shield.cs",
-              "DocumentMoniker": "C:\\Users\\pk65rtq\\Desktop\\WorldSystem\\Shield.cs",
-              "RelativeDocumentMoniker": "Shield.cs",
-              "ToolTip": "C:\\Users\\pk65rtq\\Desktop\\WorldSystem\\Shield.cs",
-              "RelativeToolTip": "Shield.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T09:32:04.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Material.cs",
-              "DocumentMoniker": "C:\\Users\\pk65rtq\\Desktop\\WorldSystem\\Material.cs",
-              "RelativeDocumentMoniker": "Material.cs",
-              "ToolTip": "C:\\Users\\pk65rtq\\Desktop\\WorldSystem\\Material.cs",
-              "RelativeToolTip": "Material.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T09:31:45.567Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Sword.cs",
-              "DocumentMoniker": "C:\\Users\\pk65rtq\\Desktop\\WorldSystem\\Sword.cs",
-              "RelativeDocumentMoniker": "Sword.cs",
-              "ToolTip": "C:\\Users\\pk65rtq\\Desktop\\WorldSystem\\Sword.cs",
-              "RelativeToolTip": "Sword.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA8wCwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T09:20:42.02Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Bookmark",

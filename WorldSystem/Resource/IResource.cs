@@ -4,10 +4,11 @@ Auteur : Christopher Ristic
 Date : 17.01.2025
 Description : Interface pour les ressources
 */
-namespace InventorySystem
+namespace WorldSystem
 {
     internal interface IResource : IItem
     {
         int Weight { get; }
+        MaterialWithPrice MaterialWithPrice { get; }
     }
 }

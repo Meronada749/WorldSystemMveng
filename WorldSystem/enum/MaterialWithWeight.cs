@@ -6,7 +6,7 @@ Description : Interface pour tous les objets
 */
 namespace WorldSystem
 {
-    internal enum Material
+    internal enum MaterialWithWeight
     {
        Wood = 4,
        Stone = 5,
